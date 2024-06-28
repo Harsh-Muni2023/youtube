@@ -228,3 +228,35 @@ svg{
     aspect-ratio: 16 / 9;
     width: 464px;
 }
+@media only screen and (max-width:481px){
+    .first-row,.second-row,.third-row,.fourth-row{
+        flex-direction: column;
+        left: 5px;
+        width: 100%;
+    }
+    .side-bar{
+        display: none;
+    }
+    .first-row{
+        top: 19%; 
+    }
+    .second-row{
+        top: 164%; 
+    }
+    .third-row{
+        top: 308%;
+    }
+    .fourth-row{
+        top: 451%;
+    }
+    .navbar2{
+        display: block;
+        margin: 17px;
+        overflow: inherit;
+        left: -2%;
+        width: 312%;
+    }
+    .colm{
+        margin: 20px 3px;
+    }
+}
