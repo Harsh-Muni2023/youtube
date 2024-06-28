@@ -255,8 +255,40 @@ svg{
         overflow: inherit;
         left: -2%;
         width: 350%;
+        padding: 23px 0;
+        top: 49px;
     }
     .colm{
         margin: 20px 3px;
     }
+    .voice .bxs-user-voice{
+        display: none;
+    }
+    i.bx.bx-menu{
+        display: none;
+    }
+    .logo{
+        height: fit-content;
+        left: 36px;
+        position: relative;
+    }
+    .logo span{
+        font-size: 24px;
+    }
+    .logo .bx{
+        font-size: 27px;
+    }
+    .voice input{
+        position: relative;
+        left: 12%;
+        width: 19rem;
+    }
+    .navbar1{
+        height: 67px;
+        border-bottom: 1px solid gray;
+    }
+    .bx-search{
+        right: 3%;
+    }
+    
 }
